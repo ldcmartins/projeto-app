@@ -10,3 +10,28 @@
     display: block;
     margin: 80px auto 61px auto
 }
+
+input {
+    width: 341px;
+    height: 61px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: -4px 4px 18px rgb (0 0 0.09);
+    border: none;
+    margin: auto;
+    display: block;
+}
+
+input::placeholder {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: black;
+    padding-left: 19px;
+}
+
+.imput-password {
+    margin-top:21px;
+}
