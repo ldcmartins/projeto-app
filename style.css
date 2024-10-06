@@ -10,7 +10,6 @@
 .page {
     display: flex;
     flex-direction: column;
-    gap:64px;
 }
 
 .image-container{
@@ -96,6 +95,7 @@ input::placeholder {
     font-weight: normal;
     font-size: 15px;
     line-height: 18px;
+    padding: 36px;
 }
 
 .login {
@@ -139,15 +139,11 @@ input::placeholder {
 
 .sing-up {
     display: block;
-    margin-top: 45px;
-    margin-bottom: 62px;
-    text-align: center;
+    margin: 10px 0 29px 0; /* Adiciona 29px de margem inferior */
+    font-size: 14px;
+    color: #333;
     text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 18px;
-
+    text-align: center;
 }
 
 
