@@ -4,40 +4,22 @@
     box-sizing: border-box;
     background-color: black;
     font-family: 'Roboto', sans-serif;
- 
 }
 
-.page {
-    display: flex;
-    flex-direction: column;
-    gap:64px;
+.img-logo {
+    display: block;
+    margin: 80px auto 61px auto
 }
 
-.image-container{
-    width:  100%;
-    height: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.user-input {
-    width: 50%;
+input {
+    width: 341px;
     height: 61px;
     border-radius: 6px;
     background-color: #fff;
     box-shadow: -4px 4px 18px rgb(0 0 0.09);
     border: none;
-    display: flex;
-    padding: 0 8px;
-    outline: none;
-}
-
-.user-input:hover {
-
-    
-    border: 2px solid rgb(0, 110, 255);
+    margin: auto;
+    display: block;
 }
 
 input::placeholder {
@@ -60,41 +42,24 @@ input::placeholder {
     font-size: 13px;
     line-height: 15px;
     color: #ffff;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
     text-decoration: none;
-
+    margin: 16px 30px 38px 0;
+    display: block;
+    text-align: right;
 }
-
-.forgot-password:hover {
-    
-    color: rgb(0, 140, 255);
-}
-
-
-.form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    gap: 16px;
-
-}
-
 
 .sing-up {
     color: #969595;
-    
+    display: block;
     text-decoration: none;
+    margin: 0 auto;
     text-align: center;
     margin: 36px;
 }
 
-.login {
- 
+.button {
+    display: block;
+    margin: 0 auto;
     background-color: #ffff;
     box-shadow: -4px 4px 18px rgb(0 0 0 / 9%);
     border-radius: 10px;
@@ -106,19 +71,7 @@ input::placeholder {
     font-size: 15px;
     line-height: 18px;
     color: black;
-
-    transition:  background-color ease-in 0.2s;
 }
-
-.login:hover {
-    /* aqui voce muda a cor do botao "login" quando o mouse esta por cima */
-    background-color: rgb(0, 140, 255);
-    color:white;
-}
-
-
-
-
 
 .or {
     font-style: normal;
@@ -127,15 +80,12 @@ input::placeholder {
     line-height: 21px;
     text-align: center;
     color: #ffff;
-    margin-top: 20px;
-    display: flex;
-
 
 }
 
 .sing-up {
-    display: flex;
-    margin-top: 45px;
+    display: block;
+    margin-top: 21px;
     margin-bottom: 62px;
     text-align: center;
     text-decoration: none;
@@ -146,7 +96,6 @@ input::placeholder {
 
 }
 
-
 strong {
     color: #ffff;
 
@@ -155,21 +104,13 @@ strong {
 .container {
 
     text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 18px;
-    margin: 23px;
+    margin: 18px auto 80px auto;
+    display: block;
+
+
+
 }
 
-.frase {
-    color: #ffff;
-    text-align: left;
-    width: 113px;
-    height: 64px;
-    margin: 29px;
-    font-size: 21px;
-    font-weight: bold;
-
-
-
+a {
+    text-decoration: none;
 }
