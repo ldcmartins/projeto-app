@@ -7,9 +7,19 @@
  
 }
 
-.img-logo {
-    display: block;
-    margin: 30px auto 61px auto
+.page {
+    display: flex;
+    flex-direction: column;
+    gap:64px;
+}
+
+.image-container{
+    width:  100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .user-input {
@@ -20,6 +30,14 @@
     box-shadow: -4px 4px 18px rgb(0 0 0.09);
     border: none;
     display: flex;
+    padding: 0 8px;
+    outline: none;
+}
+
+.user-input:hover {
+
+    
+    border: 2px solid rgb(0, 110, 255);
 }
 
 input::placeholder {
@@ -39,15 +57,22 @@ input::placeholder {
 .forgot-password {
     font-style: normal;
     font-weight: normal;
-    width: 100%;
     font-size: 13px;
     line-height: 15px;
     color: #ffff;
-    text-decoration: none;
-    /* margin: 16px 30px 38px 0;  */
+    width: 50%;
     display: flex;
+    align-items: center;
+    justify-content: end;
+    text-decoration: none;
 
 }
+
+.forgot-password:hover {
+    
+    color: rgb(0, 140, 255);
+}
+
 
 .form {
     display: flex;
@@ -55,7 +80,7 @@ input::placeholder {
     flex-direction: column;
     width: 100%;
     text-align: center;
-    gap: 8px;
+    gap: 16px;
 
 }
 
@@ -68,7 +93,7 @@ input::placeholder {
     margin: 36px;
 }
 
-.button {
+.login {
  
     background-color: #ffff;
     box-shadow: -4px 4px 18px rgb(0 0 0 / 9%);
@@ -81,7 +106,19 @@ input::placeholder {
     font-size: 15px;
     line-height: 18px;
     color: black;
+
+    transition:  background-color ease-in 0.2s;
 }
+
+.login:hover {
+    /* aqui voce muda a cor do botao "login" quando o mouse esta por cima */
+    background-color: rgb(0, 140, 255);
+    color:white;
+}
+
+
+
+
 
 .or {
     font-style: normal;
@@ -135,11 +172,4 @@ strong {
 
 
 
-}
-a {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    text-decoration: none;
 }
