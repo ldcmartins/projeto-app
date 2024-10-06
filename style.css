@@ -15,22 +15,21 @@
 .image-container{
     width:  100%;
     height: 100%;
-
+    padding:30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .user-input {
-    width: 50%;
+    width: 55%;
     height: 61px;
-    border-radius: 6px;
+    border-radius: 10px;
     background-color: #fff;
     box-shadow: -4px 4px 18px rgb(0 0 0.09);
     border: none;
     display: flex;
     padding: 0 8px;
-    outline: none;
 }
 
 .user-input:hover {
@@ -80,6 +79,7 @@ input::placeholder {
     width: 100%;
     text-align: center;
     gap: 16px;
+    padding: 36px;
 
 }
 
@@ -141,7 +141,7 @@ input::placeholder {
     display: block;
     margin: 10px 0 29px 0; /* Adiciona 29px de margem inferior */
     font-size: 14px;
-    color: #333;
+    color: #acacac;
     text-decoration: none;
     text-align: center;
 }
@@ -157,7 +157,7 @@ strong {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 18px;
+    gap: 25px;
     margin: 23px;
 }
 
