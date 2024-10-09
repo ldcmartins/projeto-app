@@ -18,7 +18,7 @@ Layout de login de um aplicativo mobile. Design minimalista e interface responsi
 <br>
 
 <p align="center">
-<img alt="interface-app" src="./assets/APP - LOGIN.png" style="width: 50%;">
+<img alt="interface-app" src="./assets/APP - LOGIN.png" style="width: 70%;">
 </p>
 
 ## 🚀 Tecnologias
